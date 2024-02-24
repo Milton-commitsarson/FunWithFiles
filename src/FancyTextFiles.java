@@ -38,7 +38,7 @@ public class FancyTextFiles {
                 System.out.print  (myFileScanner.nextLine());
             }
 
-            System.out.println("längsta ordet är: "longestWord);
+            System.out.println("längsta ordet är: " + longestWord);
 
         } catch (FileNotFoundException e) {
             System.out.println("file does not exist");
